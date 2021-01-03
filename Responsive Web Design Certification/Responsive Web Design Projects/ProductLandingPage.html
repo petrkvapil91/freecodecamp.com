@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProductLandingPage.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="headerImg">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#article">Features</a></li>
+                <li><a class="nav-link" href="#video">How It Works</a></li>
+                <li><a class="nav-link" href="#prices">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form id="form" action="">
+            <input id="email" name="email" type="email" placeholder="Enter Your Email Address" required>
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+        <article id="article">
+            <div class="materialOne">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rtwwpy9cRJnQvtLdJDydPRcQaIwgNRVfyQ&usqp=CAU"
+                        alt="">
+                </div>
+                <div>
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of
+                        your purchase.</p>
+                </div>
+            </div>
+            <div class="materialTwo">
+                <div>
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                </div>
+                <div>
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of
+                        your purchase.</p>
+                </div>
+            </div>
+            <div class="materialThree">
+                <div>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBMQEhIVExIWFxIZFhcVGRkbGxUTFhIWFhsSFRMaHSogHRolGxMYITEhKCkrLi4uGB8zODMuNygtLysBCgoKDg0OGxAQGy8jICYxLy8vMjItKy8tLS4uMi0rLy0tLi0tLS0tLS0vNS0tLS8tLS8rLS0tLS0tLS0tKystLf/AABEIALMBGgMBIgACEQEDEQH/xAAcAAEAAwADAQEAAAAAAAAAAAAABAUGAQMHAgj/xABEEAABAwEFBgIHBQUFCQAAAAABAAIDEQQFEiExBiJBUWFxE4EjMlJykaGxQmKCkvAHFLLB0TNDc+HxFSRTY4OTosLD/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EACoRAQEAAgEDBAECBwEAAAAAAAABAhEDEiExBCJBURNhkSMyQnGBobEU/9oADAMBAAIRAxEAPwD3FEUK23pFEcLnZ8uQ61UXKTymTaaigR3tE4VBPwr8xUfNfbLzhLgzGA48DUH4FJlL4NVMREUoEREBERAREQEREBERARFFtN4wxmj5GtPKufw1UWyeUyW+EpFEs15QyGjJGuPKuf5TmpaSy94WWeRERSgREQEREBERAREQEREBERAREQFmowP3qdzwHYWPcAcxXEWjLs0DzWlWavQeHaS8mjZGObnzdoPzD9VXL6ncmN+q14/mIt1XYJ3SB2TGUbUAVLyKmlRugAjIc1Hjueds8sUUuQo6jjkRQChaQa6V1GqutliKTN4+IT5EAf8Aqfgvsbt4+/EfkW/0KpwYfw8bP8pzvusUss9qs49IzCMt5pLR8jg+Km2faIgDEcubx/8ARuXyVttAytnk7D6hVdsukWixxOjrHJgjcHMo0kYBulxBFO/JTyzl6vZfE/dOFw17osYL7Y7h+Uh3yyPyUpl4RE0xgHk7dPwNF5zPY7XETiDXj/mNMbv+4yod+VS7Fapy4xBsjXgYsDsLw5umJlDvN7VpxosZ6vkxvTlN1p+DCzcr0QELlYSK3uaaYKEa+GS0ju0U+inQ34dPFc08pGh3zyK1x9bh8zSl9Pl8Naioor5k9mOT3XYT8HD+akC/GD+0jlZ1w1H5m1W+PqOO/LO8WU+FqigQ3xZ3aSs8zT6qayRp0IPY1Wsyl8VSyzy+kRUu1F4+FFhBo51akatZxI6nQd68FGecwxuVTjjcrqI1+X3SrI34QMnP419lnXqqKCSNwOA15617muZWAtG1fjTGOGmFppXhl9lvRae5LRm4nl9T/kV4XNz555+56uHBMMOy6eK/rQ8weB6rSbPXk54MTzV7RUE6uZpU9QaA9ws0HqRYZ8E0b+TgD7rzgNem9XyV/Tc1w5J9Vly8fVi26Ii9x5oiIgIiICIiAiIgIiICIiAiIgKHediErKZAjQnn+voDwUxFGWMymqmXTI/vMlkkBc31qgjUcwQRwNDnwNOa+jfUT7VDLXCG1a7XLE19OFTnTgtDeNiEraaHOh114Eclib3sTom4JGFsdW7wrQjGDh8UUcBqACaitBRcdmfF7cZuNZrLvWztkzJIJMLg7cdoQeFV07MurZIejS38ri3+Swr7OatdDNJXIFj8L2hvEh4AkA7h3mrGw3taoQ/w4nywtc71GtfQneIwNOP7WtKLT83vks+EdHt7LHbZr3vs8YcAypLq8SaAZggimefVVUMToyMiHRFpYa6ZAHy9ZhHMVyyXXeV+ttj4o2sIkBGVOONjsJac2mjTkVKv1wZbMJ0fiHyY8+VSfiuHm1lnlnjd+P8AjfDckxqzs5intQLmhwezFQitNxpyPOtVNtezUThuOcw8jvt8w7P4ELOXBbWMlshc4AFko15F4y7UHxWukviIAuGJzWgl5aKtYAKkudpl0K6+Ljwyw3lPPf8AfuyyyyxvZmrTs9PHm0YxzjND38N2XwJUVtomjNMRB5OBafgVvwuqezseML2hw5OAP1Vc/Q4+cLpbH1N/qm2MdeAP9rE1w+80H/yC5jFkdmA6M/ccafl0V3atmoznE50Z/M3zaTX5rPW657RHUvibK324q1p1br81zZ8PLh5m22OfHl47LRlmcBjjnc8AaFzshzIBC85/alfz2xCIE437tQTkOJFTXIEj8QK1djnGZY86EFp1FcqLyzbmQyXh4dcmMaOxdvHzw4fgFXHPrur4ndvxcfufeyF2hxa1pDXVGZqKChBodKkkZGmq3F12J2AOIxV0JcQSBkKgBZzZRpG6Mx6w7Mq6p65D4rQ3Xednl9FBaA4sq3CCQd00NAdR1GS47cs+TLL6dHLZOy1LcIrhc0/mB6ZLqntnqga1aXdONO677Jc8hID3ONTU1JNBWvFdToKzho4vA+avjj3c9r0xERfRPJEREBERAREQEREBERAREQEREBERAXBC5RBWWy4bNJmYw13tM3TXmaZHzBVa7ZyVmcUtTwxVDqf4jc/otKizz4sc/K2OdjLG3WqE1kjr95wrl/it08wVntpZXSOFsFAYySBXKgFM8uIpnyGmVF6Uqi37OWeYkuBAcCHBpoHA9sx5UWN4Mta6t/3XnJN70wF3Qskls0WI5uJDhhJax0hJwmhHs1/1rvbVdk/gOgjmBDmOZ6Vgrhc0igdHhA15FZUbKTRSl0bX4IqtjcHNxYN0hwrUkgjiM81ZxbVyRbszRJwq0FjweTozlXqCOwWXHnOPePJ2aZ49XfFq7IHiNofTGAMWGtMVM6Vzou1V90XxFaGksJBGRa7Jw6lvLqrBd2Nlm457NCIilCh2ou+Ix+NgHiNcyjhkd6RrSDzyK/PW0MLv9pzsOZLo6ecbaUK/Sd+trZ39KH8rg7+S8bvO48VrEzXFrm0Y+lMwx26416U+S8v1eU4+Tf3P9vS9FbpxZ5XWSwS2gNa2V3hsjEjQMNHgvxNf2pQ9Fo/2eNss5kt3gQwSyEh4iBwktNCWg6AkVPXnql2bPwS2QQSVlZE2IDFlRwqBpxyPxC0Vz3ZCyIRxNDMIyA0IXJw3WFk+btfm75bqZbrUxrS1mp1P9FV3HZ8dpZyacR8sx86LutED60oaq42bsWBrnnUmnw1+eX4VtwYdfLGPJejCrpERey4BERAREQEREBERAREQEREBERAREQEREBcPdQErlcEIKK22h4rMC/IZhtTQCu8Y6+rpoK96K3slpD2Bwy5jkeRXSLuGe+6h4ZZfEKFet3vyMYJ1rhJa/UGocKE6LLLK4zq1taSW6W8kjWgucQAMyTkAOZKx+1lvss7PBawyPdk1zMjmKblAXPyJ0GE8wottgklc175HShtNxxALaalophxdSBTmrrZe8Lve58VmI8ZgBkBzeK09Z+dTmMq5VHNY4c2PNvHXZpcLh3UsVyWstEr4zIACKOdhlAI1bhG7rpUu6rpftLPZi1jHOmc84GQz0Dw/g0SkjKlTvYjRpNeB115bQWeGoLsbxlgZQmvImtAehNeiorZdlot5Y6WNkUbDVmJtXA0pUA0ceOuAZ6FV/wDP0WdGVT+Tc90X1033FMA0kRzU3onVDmkethBAxNB+0MlaLLzbJBrMMb8YFDgmALajiwtAMfTDoo8drtdmOE4sOVGWglzezLW0Ej8YPkunrs/mZdO/DWzxhzXNOjgQexFF5nfFgdjy9cEtf1w5Vp+sqLd2S/InUa+sTjoH0o73ZAS13xr0UTaK4fH9JGaSfxU086ZdcuQXP6rh/Jjud9NuDk6LqqKzAQ2cR1q5xxO+CQWotIINKKvfZLS04XxPr2Jr25qxu+4LRKRiBiZxLtfJmte9F50487dSOu54+bVrZbW60O8Nop7bh9lvTqeH+S0cUYaA0CgAAA5AClF03fYWQsDGDLieLjzJ5qSvV9Pw/jnfy4OTPqvbwIiLoZiIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgr7yuiKYGoo4gjENcxTPn5rLXXs3aIWeBIxkzWmRzZYzgcTJK55FCa4t6pNaH5Lcos7xY734q0zutMXc8DLK84YhJ0IwzMHJrTunicsJ7rU2C8Ypq+G6pHrNOTm+8w5hdlqskcgo9oPLmOxGYVNb7jJo4ekp6pJwyN9yUU+aSXHwWytAuHNBFCKjkVm7LedoiOB/pgODwGTAfwv6aEq6sV5RS5NdvDVrsnDu0q0ylRZYh2q4YzXwz4ddW0DmHvGcvhRVmG02bSrWDlWSL8vrsHZapFFwnx2T1falsu0DCPSjB98HEwn3h6p6EBXEbw4BzSCDoQag9iq+13NE84mgxv9pmVe40KpZbttFnJdGTTiYaZ+/Zzun8NFG8p5NS+GsRZODa/AaWiM4B/exAuA5+JF67O9COq0lht0UzccT2yN5tIPkeR6K0zl8IuNiQiIrIEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREHTabMyQUe0OH07HUKnttyO1YcYGgcaOb7kn0GndXyKtxlTKzMF5zxHC7fA+zJuvA+6/Rw75lXFhvWKU4QcL+LHjC4eR18qqTaLOx4o9ocOvDseCpbdcGW4Q4DRr+HuvGY7fEqPdP1T2q/RZAXla4HBtPEaNY5jhfTnHN6rvxUHVXV23/BMcFTHLxjkGF/kDqOoqkzl7FxqRbrqhlzc3e4Obk4dcQ/ms1aNlnxP8aA1dzYfDfTkabrh3zK2SJlhMiZWMrY9oJWHBK3HTWowSD8GjuwzV9Y7zilya7e9k5HLXLjTpVdlssUcopIwOHXUdjqFQ23ZtwzidiGW6/UU0wvHLgDkonVj+pdVpkWRhvW0wHBICR7Mmv4ZdD1Jy5BXlivuGTInA7k/LXSh68NCeStMpUWLJERWQIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIOueBrxhc0OHI/UdVRXls21wo2jmjRkmdPcfq09deq0KKuWMvlMtjJWe22iznA4ucPYlOdPuS6Ed8hzKvLHfMT90nA7LJ2WulD14c1Nmha8YXNDhyIqqW27Pg5xGmu66tM/ZdqD116qslx8J3KvkWRjtVps5DTWnsPzFOTHadgCANSSrixX9E/df6N3J2ncO5VyqaV4VVplKixZTQtcMLmhw5EVVJbdmmHOJ2Hk11SK9Dq09Rmr+qKbjKS6Y9s9qspoQcHAOzZ2a4adtTxKt7DtDE+jX1jcdK5gnoRr1pUDmrhzQciKhU9v2eieDg9GTqAKtPvMOVOirrKeE7lW7HgioIIOhH9V9LHvstqsxxNJw8S2rmnuDmO5qBwCnWPaZtPTNw/fGbe5PAd6E8ApmURpokXXDO14q0gj9ajguxWQIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIPiWJrhhcA4HgRUfBUtu2eac4zTjhdUivMHVp65+SvUUXGVMumOZJabMcIqBwa7Np91w+mp4lXNg2gjfRr/Rv5HQ9QeQ4nTqraRgcCCAQdQcwe4VNbtnmOB8M4eOF2bajjzB68OCrrKeO6dyrprgRUZhcrHA2mynUgcnklru0meZ61ceYVvYdoWOIbIDG46V0cfukVB8iacSFMylRpdKuttzwyHFTA/2mZHz4FT2PBFQQQdCOPmvpTZKhkZ7lnhOKIkgcYsuucOn5aE8Su2xbRSN3ZWYwNXMBxD3o/WHYBwHFy1KiW27YpfXYCfaGRH4h9FXps8Lb+yw3lDMAY3h1a6EcNe/kpaytv2ceCXxnGedcEmWlX6PpyeCByXRZr8tETsD/SU1a/ckArStHHC7vUV4NTr+zX02KKnuvaGGYluccgpVjwWkVJGYcARmOIFeFVcK6oiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg4c0EUIqDqCqe3XBG4HBRtdWkYmHoWnT6dFcoosl8p2xzorRZjUEtH3iXRu/6mbm/iDujQrSybRNqGzNMbiaA/ZcfuuBIJ+7XFzAV4RXJVVsuKN1cG4TqKVY4cnRnKnZV1Z4TuVZxyNcKtII6L7WNksk9mOJpMQ6VfERy9pn8I9kqdZ9p8A/3lmAZekBBjNaf3mQGv2sJPspM4jS1vQWkYXQeGaVxMfUYxya8HdPkVE/e7PafQWiMxyf8OTI15xSDXu016BWlmtTJBVjqjjzHQjguLZZI5W4JGhzeRH05KbBkL/u02NrZmF0kYe1tHgExh7qAh40YTRpy+1nUVXXdV7W2SayeHQQmSUSsNDWMMNHMdStA7DTMUFQeFF/3FZnOw+LPI4FtQ6UlkQB0I58m17r62OvSyy2uSKOaMviYWCMOGL1t52HjQjPqVnJersv8NwiItmYiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIOKKot9xNdvRO8J+eg3XV4OZ/TzqrhFFkpt55eezNpY8SReJCQKE2Z7sLuvg5gGueTPipFgNsAAkltcppTC6MBpPXCwFbtFTo/VbqZax3RaJMpKQR0pRtMVDyP2f1koNk/ZbdsNtitsIkidEQ4Rtd6MuDcIJBBd1yIqVt0VscZEW7ERFZAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD/2Q=="
+                        alt="">
+                </div>
+                <div>
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of
+                        your purchase.</p>
+                </div>
+            </div>
+        </article>
+        <div class="video">
+            <iframe  id="video" width="500" height="400" src="https://www.youtube.com/embed/5xVfIeENKSw"></iframe>
+        </div>
+        <section id="prices">
+            <div class="TrubkaOne">
+                    <h3>TENOR TROMBONE</h3>
+                    <span>$600</span>
+                    <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p>
+                    <button>SELECT</button>
+            </div>
+            <div class="TrubkaOne">
+                    <h3>TENOR TROMBONE</h3>
+                    <span>$600</span>
+                    <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p>
+                    <button>SELECT</button>
+            </div>
+            <div class="TrubkaOne">
+                    <h3>TENOR TROMBONE</h3>
+                    <span>$600</span>
+                    <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p>
+                    <button>SELECT</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Term</a>s</li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
+    </footer>
+
+</body>
+
+</html>
