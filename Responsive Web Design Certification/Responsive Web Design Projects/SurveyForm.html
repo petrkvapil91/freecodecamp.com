@@ -11,21 +11,23 @@
 <body>
     <header>
         <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
     </header>
     <form id="survey-form" action="akce">
-        <div>
-            <label id="name-label" for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Enter your name" required>
-        </div>
-        <div>
-            <label id="email-label" for="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="Enter your Email" required>
-        </div>
-        <div>
-            <label id="number-label" for="number">Age (optional)</label>
-            <input id="number" name="number" type="number" min="5" max="100" placeholder="Age">
-        </div>
+        <section>
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label id="email-label" for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your Email" required>
+            </div>
+            <div>
+                <label id="number-label" for="number">Age (optional)</label>
+                <input id="number" name="number" type="number" min="5" max="100" placeholder="Age">
+            </div>
+        </section>
         <div>
             <p>Which option best describes your current role?</p>
             <select name="role" id="dropdown">
@@ -48,7 +50,7 @@
         </div>
         <div>
             <p>What is your favorite feature of freeCodeCamp?</p>
-            <select id="drop">
+            <select id="dropdown">
                 <option value="none">Select an option</option>
                 <option value="challenges">Challenges</option>
                 <option value="projects">Projects</option>
@@ -105,7 +107,7 @@
         </div>
         <div>
             <p>Any comments or suggestions?</p>
-            <textarea name="commentArea" id="commentArea" cols="80" rows="10"
+            <textarea name="commentArea" id="commentArea" cols="83" rows="10"
                 placeholder="Enter your comment here..."></textarea>
         </div>
 
