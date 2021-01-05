@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 850px) {
+    p {
+        font-size: large;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+nav {
+    position: fixed;
+}
